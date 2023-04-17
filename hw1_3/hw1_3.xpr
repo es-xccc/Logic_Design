@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="C:/VivadoProject/hw1_3/hw1_3.xpr">
+<Project Version="7" Minor="61" Path="C:/Users/User/Downloads/謝富祥_hw1/hw1_3/hw1_3.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="6b970dc4734e47f881c4107f3b67d6b7"/>
@@ -109,8 +109,10 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../../Users/User/Desktop/LD_hw1/hw1_3_tb.v">
+      <File Path="$PSRCDIR/sim_1/imports/LD_hw1/hw1_3_tb.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/LD_hw1/hw1_3_tb.v"/>
+          <Attr Name="ImportTime" Val="1679450962"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>

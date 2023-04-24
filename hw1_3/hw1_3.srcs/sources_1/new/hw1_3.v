@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 /*
-m(2,4,7,8)=S'D1'D0+S'D1D0+SD1D0'+SD1D0
+m(1,3,6,7)=S'D1'D0+S'D1D0+SD1D0'+SD1D0
 */
 module hw1_3(S,D1,D0,Y);
 input S,D1,D0;
